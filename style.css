@@ -73,4 +73,32 @@ ul li {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 5px;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #00B4D4; /* matches your previous heading style */
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.asset-img {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
 }
