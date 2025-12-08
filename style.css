@@ -11,13 +11,13 @@ body {
 }
 
 .navbar button {
-  flex: 1;
-  margin: 0 5px;
+  flex: 1;               /* distribute space evenly */
+  margin: 0 5px;         /* optional spacing between buttons */
   color: white;
   background: #F36F21;
   border: none;
-  padding: 10px;
   cursor: pointer;
+  height: 100%;          /* make button fill navbar vertically */
 }
 
 .navbar button:hover {
@@ -102,4 +102,5 @@ tr:nth-child(even) {
   height: auto;
   border-radius: 5px;
 }
+
 
