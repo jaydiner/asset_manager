@@ -7,7 +7,9 @@ body {
 .navbar {
   display: flex;
   background-color: #F36F21;
-  padding: 10px;
+  padding: 0 10px; /* keep 10px on left and right, no top/bottom padding */
+  height: 60px; /* set the navbar height */
+  box-sizing: border-box;
 }
 
 .navbar button {
