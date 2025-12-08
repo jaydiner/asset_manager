@@ -22,6 +22,8 @@ body {
   height: 100%;         /* fill navbar vertically */
   margin-right: 10px;   /* spacing between buttons */
   min-width: 80px;      /* optional, keep buttons from being too small */
+  font-size: 18px;      /* adjust as needed */
+  font-weight: bold;    /* optional, makes text stand out more */
 }
 
 .navbar button:hover {
