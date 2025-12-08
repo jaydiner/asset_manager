@@ -7,19 +7,21 @@ body {
 .navbar {
   display: flex;
   background-color: #F36F21;
-  padding: 0 10px; /* keep 10px on left and right, no top/bottom padding */
-  height: 60px; /* set the navbar height */
-  box-sizing: border-box;
+  padding: 0 10px;      /* left/right padding */
+  height: 60px;         /* adjust as needed */
+  align-items: stretch;  /* makes buttons fill the navbar height */
 }
 
 .navbar button {
-  flex: 1;               /* distribute space evenly */
-  margin: 0 5px;         /* optional spacing between buttons */
+  /* remove flex:1 */
   color: white;
   background: #F36F21;
   border: none;
   cursor: pointer;
-  height: 100%;          /* make button fill navbar vertically */
+  padding: 0 20px;      /* horizontal padding inside button */
+  height: 100%;         /* fill navbar vertically */
+  margin-right: 10px;   /* spacing between buttons */
+  min-width: 80px;      /* optional, keep buttons from being too small */
 }
 
 .navbar button:hover {
